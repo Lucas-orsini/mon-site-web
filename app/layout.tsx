@@ -3,8 +3,10 @@ import { GeistSans } from 'geist/font/sans'
 import { GeistMono } from 'geist/font/mono'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
+const siteUrl = "https://www.lucasorsinivisuals.com"; // ← remplace par ton domaine
 
 export const metadata: Metadata = {
+   metadataBase: new URL(siteUrl), // important
   applicationName: "Lucas Orsini Visuals",
   generator: "Next.js",
   title: {
@@ -37,6 +39,34 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
     googleBot: { index: true, follow: true, "max-image-preview": "large" },
+  },openGraph: {
+    type: "website",
+    url: siteUrl,
+    siteName: "Lucas Orsini Visuals",
+    title: "Lucas Orsini Visuals — Pilote de drone FPV professionnel",
+    description:
+      "Prises de vues aériennes FPV ciné & pub. Showreel, prestations, devis rapide.",
+    locale: "fr_FR",
+    images: [
+      {
+        url: `${siteUrl}/logo-lovisuals.png`, // 1200x630 recommandé
+        width: 1200,
+        height: 630,
+        alt: "Lucas Orsini Visuals — Drone FPV",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Lucas Orsini Visuals — Pilote de drone FPV professionnel",
+    description:
+      "Prises de vues aériennes FPV ciné & pub. Showreel, prestations, devis rapide.",
+    creator: "@ton_handle", // optionnel
+    images: [`${siteUrl}/logo-lovisuals.png`],
+  },
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
   },
 }
 
