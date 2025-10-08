@@ -14,7 +14,7 @@ export default function AboutSection() {
           <div className="order-2 lg:order-1">
             <div className="relative">
               <img
-                src="/bali-beach.jpg"
+                src="/bali-beach.JPG"
                 alt="Pilote de drone FPV sur une plage"
                 className="w-full h-[500px] object-cover rounded-xl shadow-2xl"
               />
