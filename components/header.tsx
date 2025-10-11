@@ -237,7 +237,7 @@ export default function Header() {
           className="border-2 border-white text-white bg-transparent hover:bg-white hover:text-black hover:scale-105 hover:shadow-2xl transition-all duration-300 transform-gpu px-8 py-4 text-lg font-semibold tracking-wider"
           onClick={() => scrollToSection("realisation-slider")}
         >
-          DÉCOUVRER MES RÉALISATIONS
+          DÉCOUVREZ MES RÉALISATIONS
         </Button>
       </div>
     </div>
