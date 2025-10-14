@@ -196,7 +196,7 @@ export default function Header() {
             <Instagram size={20} />
           </a>
           <a
-            href="https://www.linkedin.com/in/lucas-orsini-b981b819b/"
+            href="https://www.linkedin.com/in/lucas-orsini-visuals/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-[#ff9e0d] transition-colors"
