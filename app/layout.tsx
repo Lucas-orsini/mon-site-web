@@ -69,7 +69,11 @@ export const metadata: Metadata = {
     images: [`${siteUrl}/logo-lovisuals.png`],
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-48x48.png", sizes: "48x48", type: "image/png" },
+    ],
     apple: "/apple-touch-icon.png",
   },
 }
