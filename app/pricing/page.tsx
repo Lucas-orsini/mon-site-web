@@ -387,8 +387,8 @@ export default function Pricing() {
               <p className="section-label">Livrables</p>
               <div className="deliverables">
                 <ul className="deliverables-list">
-                  <li>Vidéo 30–60 sec — format vertical</li>
-                  <li>Vidéo 30–60 sec — format horizontal</li>
+                  <li>Vidéo 30–60 sec - format vertical</li>
+                  <li>Vidéo 30–60 sec - format horizontal</li>
                 </ul>
               </div>
               <p className="card-delay">Livraison sous 2–3 jours ouvrés</p>
